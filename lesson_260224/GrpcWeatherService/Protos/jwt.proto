@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package jwt;
+
+message JWTRequest {
+  string username = 1;
+}
+
+message JWTResponse {
+  string token = 1;
+}
+
+service JwtService {
+  rpc GetJwt (JWTRequest) returns (JWTResponse);
+}

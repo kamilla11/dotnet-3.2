@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{D3338664-4358-431B-9B66-A987D2DD3547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcWeatherService", "GrpcWeatherService\GrpcWeatherService.csproj", "{437942A1-13A9-4864-B640-310199C228D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthentication", "JwtAuthentication\JwtAuthentication.csproj", "{E85C80C4-89D7-499D-8C93-4FDCE517E4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3338664-4358-431B-9B66-A987D2DD3547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3338664-4358-431B-9B66-A987D2DD3547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3338664-4358-431B-9B66-A987D2DD3547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3338664-4358-431B-9B66-A987D2DD3547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437942A1-13A9-4864-B640-310199C228D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437942A1-13A9-4864-B640-310199C228D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437942A1-13A9-4864-B640-310199C228D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437942A1-13A9-4864-B640-310199C228D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85C80C4-89D7-499D-8C93-4FDCE517E4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85C80C4-89D7-499D-8C93-4FDCE517E4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85C80C4-89D7-499D-8C93-4FDCE517E4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85C80C4-89D7-499D-8C93-4FDCE517E4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
